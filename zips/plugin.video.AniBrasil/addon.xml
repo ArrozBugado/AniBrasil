@@ -52,6 +52,53 @@
     <fanart>fanart.png</fanart>
 
     <screenshot>resources/screenshots/01.jpg</screenshot>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.AniBrasil" name="[COLOR red]Ani[/COLOR][COLOR blue]Brasil[/COLOR]" version="1.0.1" provider-name="ArrozBugado"> 
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>
+
+<extension point="xbmc.addon.repository" name="Repositório Exemplo">
+	<info compressed="false"></info>
+	<checksum></checksum>
+    <datadir zip="true"></datadir>
+</extension>
+
+<extension point="xbmc.addon.metadata">
+    <summary lang="en">
+[COLOR white]Branco - Ativo[/COLOR]
+[COLOR yellow] Amarelo - Atualizando[/COLOR]
+[COLOR red] Vermelho - Inativo.[/COLOR]</summary>
+    <description lang="en">Somos apenas um addon comum.</description>
+     <disclaimer lang="en">Não fazemos parte da equipe do kodi, utilizamos links de terceiros, portanto não nos responsabilizamos por eles.</disclaimer>
+	 	<news>V1.0.0 - Criação de Addon.</news>
+	<platform>all</platform>
+    <assets>
+	<icon>anibrasil.png</icon>
+    <fanart>fanart.png</fanart>
+    <screenshot>resources/screenshots/01.jpg</screenshot>
+    <screenshot>resources/screenshots/02.jpg</screenshot>
+    <screenshot>resources/screenshots/03.jpg</screenshot>
+
+    </assets>
+</extension>
+</addon>
+
+
+
+
+
+
+
+
+
+
 
     <screenshot>resources/screenshots/02.jpg</screenshot>
 
