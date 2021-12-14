@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.AniBrasil" name="AniBrasil" version="VERSION_NUMBER_HERE" provider-name="ArrozBugado">
-    <extension point="xbmc.addon.repository" name="Nome Repository">
+<addon id="repository.AniBrasil" name="[COLOR red]Ani[/COLOR][COLOR blue]Brasil[/COLOR]" version="VERSION_NUMBER_HERE" provider-name="ArrozBugado">
+    <extension point="xbmc.addon.repository" name="AniBrasil">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/ArrozBugado/AniBrasil/master/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/ArrozBugado/AniBrasil/master/zips/addons.xml.md5</checksum>
